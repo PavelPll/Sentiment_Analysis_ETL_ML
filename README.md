@@ -1,3 +1,3 @@
-# projet_me
+# The project Sentiment Analysis
 
-sdsdsdfsdf
+Get/Extract the data from the internet - Transform the data - Load data into MongoDB
