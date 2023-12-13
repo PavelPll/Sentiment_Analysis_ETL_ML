@@ -3,7 +3,7 @@
 Get/Extract the data from the internet --> Transform the data --> Load data into MongoDB
 ## Extraction
 * The file **Extract_single.ipynb** (as well as its **.py** version) extracts the comments (author, score, ...) for certain categories of Software using this [website](https://www.capterra.fr/directory).  
-* The file **Extract_multiple.py** paralelizes the extraction process (it runs Extract_single.py in a parallel) on multiple CPUs (each CPU is taking care only of certain categories). 
+* The file **Extract_multiple.py** paralelizes the extraction process (it runs Extract_single.py in a parallel) on multiple CPUs. Each CPU is taking care only of certain categories. 
 
 
 > [!NOTE]
