@@ -13,8 +13,7 @@ jupyter notebook --allow-root --ip 0.0.0.0
 (8) Go to Extract folder
 USE Extract_single.ipynb (or Extract_single.py) to extract some categories
 OR
-USE
-Extract_multiple.py to extract all categories using multiprocessing
+USE Extract_multiple.py to extract all categories using multiprocessing
 (9) Go to Transform folder
 USE Transform.ipynb to concatenate all single extraction (see in data_csv/i_j.csv) to the final dataframe frame (data_csv/capterra.csv)
 (10) Go to Load folder
