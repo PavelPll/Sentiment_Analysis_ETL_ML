@@ -17,4 +17,4 @@ USE Extract_multiple.py to extract all categories using multiprocessing
 (9) Go to Transform folder
 USE Transform.ipynb to concatenate all single extraction (see in data_csv/i_j.csv) to the final dataframe frame (data_csv/capterra.csv)
 (10) Go to Load folder
-USE pymongo_connect.ipynb to load capterra.csv into MongoDB database
+USE pymongo_connect.ipynb to load capterra.csv into MongoDB database (not finished yet)
