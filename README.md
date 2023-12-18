@@ -6,7 +6,7 @@ Get/Extract the data from the internet **-->** Transform the data **-->** Load d
 ## Transform
 * The file src/Transform/**Transform.ipynb** concatenates all single extraction (see in data_csv/i_j.csv) to the final dataframe frame (data_csv/capterra.csv).
 ## Load
-* The file src/Load/**MongoDB_load.py** loads capterra.csv (created in the previous Transform step) into MongoDB database and analyses its properties.
+* The file src/Load/**MongoDB_load.py** loads capterra.csv (created in the previous Transform step) into MongoDB database and processes it.
 
 > [!NOTE]
 > For technical side how to run the code please see the file ./How_to_run.txt.
