@@ -1,6 +1,6 @@
 # The project Sentiment Analysis
 
-Get/Extract the data from the internet --> Transform the data --> Load data into MongoDB database
+Get/Extract the data from the internet **-->** Transform the data **-->** Load data into MongoDB database
 ## Extraction
 * The file src/Extract/**Extract_single.ipynb** (as well as its **.py** version) extracts the comments (author, score, ...) for certain categories (from categorie i to categorie j) of Software from this [website](https://www.capterra.fr/directory). The output see in data_csv/i_j.csv file. 
 * The file src/Extract/**Extract_multiple.py** parallelizes the extraction process on multiple CPUs. It runs Extract_single.py in a parallel. Each CPU is taking care only of certain categories in order to accelerate data extraction.
